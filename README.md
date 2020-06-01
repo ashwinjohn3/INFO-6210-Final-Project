@@ -1,2 +1,6 @@
-# INFO 6210 Final Project
- Cloud Based Medical Insurance Database
+# Cloud Based Medical Insurance Database
+
+### ABSTRACT:
+The idea behind this project is to build and Database that's almost simialar to the setup of an Insurance Service Provider's Enterprise Level Database/Data Repository. Since we are dealing with insurance data which holds sensitive personal details like address, age, sex, etc. obtaining a real world dataset is surreal, so, much of the data here are masked. We shall have also included an additional piece of code that shall be used to scrape the data from Twitter using Twitter API to allow our database to handle a real-world situation too. Here we are obtaining data from different sources and will be transforming them to fit into a uniform dataset template. This process is called as munging and post munging we will be cleaning the data to make sure that the data from those munged and cleaned dataset will be error free which can be loaded into a database.
+
+The key take-away from this project is not just to munge the data and load into database, but also hold the entire database in a public cloud platfrom like Amazon Web Services Platform. For the pupose of this project we have built the database in AWS RDS, a AWS Database service and configured the connections and setup to which we shall load the data post munging it.
